@@ -21,7 +21,6 @@ SECRET_KEY = 'dnd1*2dcrtrdp+j^-%cix$9b9t6n9m&%t(300%b4m6onmal+tw'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-
 TEMPLATE_DEBUG = False
 
 ALLOWED_HOSTS = []
@@ -38,6 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
 
     'rest_framework',
+    'south',
 
     'core',
     'ui',
