@@ -1,0 +1,281 @@
+[
+{
+    "pk": 1,
+    "model": "core.sensor",
+    "fields": {
+        "pid": "00",
+        "description": "Supported PIDs [01 - 20]",
+        "unit": ""
+    }
+},
+{
+    "pk": 2,
+    "model": "core.sensor",
+    "fields": {
+        "pid": "01",
+        "description": "Status Since DTC Cleared",
+        "unit": ""
+    }
+},
+{
+    "pk": 3,
+    "model": "core.sensor",
+    "fields": {
+        "pid": "02",
+        "description": "DTC Causing Freeze Frame",
+        "unit": ""
+    }
+},
+{
+    "pk": 4,
+    "model": "core.sensor",
+    "fields": {
+        "pid": "03",
+        "description": "Fuel System Status",
+        "unit": ""
+    }
+},
+{
+    "pk": 5,
+    "model": "core.sensor",
+    "fields": {
+        "pid": "04",
+        "description": "Calculated Load Value",
+        "unit": ""
+    }
+},
+{
+    "pk": 6,
+    "model": "core.sensor",
+    "fields": {
+        "pid": "05",
+        "description": "Coolant Temperature",
+        "unit": "C"
+    }
+},
+{
+    "pk": 7,
+    "model": "core.sensor",
+    "fields": {
+        "pid": "06",
+        "description": "Short Term Fuel Trim - Bank 1",
+        "unit": "%"
+    }
+},
+{
+    "pk": 8,
+    "model": "core.sensor",
+    "fields": {
+        "pid": "07",
+        "description": "Long Term Fuel Trim - Bank 1",
+        "unit": "%"
+    }
+},
+{
+    "pk": 9,
+    "model": "core.sensor",
+    "fields": {
+        "pid": "09",
+        "description": "Long Term Fuel Trim - Bank 2",
+        "unit": "%"
+    }
+},
+{
+    "pk": 10,
+    "model": "core.sensor",
+    "fields": {
+        "pid": "0A",
+        "description": "Fuel Rail Pressure - Bank 2",
+        "unit": "%"
+    }
+},
+{
+    "pk": 11,
+    "model": "core.sensor",
+    "fields": {
+        "pid": "0B",
+        "description": "Intake Manifold Pressure",
+        "unit": "psi"
+    }
+},
+{
+    "pk": 12,
+    "model": "core.sensor",
+    "fields": {
+        "pid": "0C",
+        "description": "Engine RPM",
+        "unit": ""
+    }
+},
+{
+    "pk": 13,
+    "model": "core.sensor",
+    "fields": {
+        "pid": "0D",
+        "description": "Vehicle Speed",
+        "unit": "MPH"
+    }
+},
+{
+    "pk": 14,
+    "model": "core.sensor",
+    "fields": {
+        "pid": "0E",
+        "description": "Timing Advance",
+        "unit": "degrees"
+    }
+},
+{
+    "pk": 15,
+    "model": "core.sensor",
+    "fields": {
+        "pid": "0F",
+        "description": "Intake Air Temp",
+        "unit": "C"
+    }
+},
+{
+    "pk": 16,
+    "model": "core.sensor",
+    "fields": {
+        "pid": "10",
+        "description": "Air Flow Rate (MAF)",
+        "unit": "lb/min"
+    }
+},
+{
+    "pk": 17,
+    "model": "core.sensor",
+    "fields": {
+        "pid": "11",
+        "description": "Throttle Position",
+        "unit": "%"
+    }
+},
+{
+    "pk": 18,
+    "model": "core.sensor",
+    "fields": {
+        "pid": "12",
+        "description": "Secondary Air Status",
+        "unit": ""
+    }
+},
+{
+    "pk": 19,
+    "model": "core.sensor",
+    "fields": {
+        "pid": "13",
+        "description": "Location of O2 sensors",
+        "unit": ""
+    }
+},
+{
+    "pk": 20,
+    "model": "core.sensor",
+    "fields": {
+        "pid": "14",
+        "description": "O2 Sensor: 1 - 1",
+        "unit": "%"
+    }
+},
+{
+    "pk": 21,
+    "model": "core.sensor",
+    "fields": {
+        "pid": "15",
+        "description": "O2 Sensor: 1 - 2",
+        "unit": "%"
+    }
+},
+{
+    "pk": 22,
+    "model": "core.sensor",
+    "fields": {
+        "pid": "16",
+        "description": "O2 Sensor: 1 - 3",
+        "unit": "%"
+    }
+},
+{
+    "pk": 23,
+    "model": "core.sensor",
+    "fields": {
+        "pid": "17",
+        "description": "O2 Sensor: 1 - 4",
+        "unit": "%"
+    }
+},
+{
+    "pk": 24,
+    "model": "core.sensor",
+    "fields": {
+        "pid": "18",
+        "description": "O2 Sensor: 2 - 1",
+        "unit": "%"
+    }
+},
+{
+    "pk": 25,
+    "model": "core.sensor",
+    "fields": {
+        "pid": "19",
+        "description": "O2 Sensor: 2 - 2",
+        "unit": "%"
+    }
+},
+{
+    "pk": 26,
+    "model": "core.sensor",
+    "fields": {
+        "pid": "1A",
+        "description": "O2 Sensor: 2 - 3",
+        "unit": "%"
+    }
+},
+{
+    "pk": 27,
+    "model": "core.sensor",
+    "fields": {
+        "pid": "1B",
+        "description": "O2 Sensor: 2 - 4",
+        "unit": "%"
+    }
+},
+{
+    "pk": 28,
+    "model": "core.sensor",
+    "fields": {
+        "pid": "1C",
+        "description": "OBD Designation",
+        "unit": ""
+    }
+},
+{
+    "pk": 29,
+    "model": "core.sensor",
+    "fields": {
+        "pid": "1D",
+        "description": "Location of O2 sensors 2",
+        "unit": ""
+    }
+},
+{
+    "pk": 30,
+    "model": "core.sensor",
+    "fields": {
+        "pid": "1E",
+        "description": "Aux input status",
+        "unit": ""
+    }
+},
+{
+    "pk": 31,
+    "model": "core.sensor",
+    "fields": {
+        "pid": "1F",
+        "description": "Time Since Engine Start",
+        "unit": "min"
+    }
+}
+]
