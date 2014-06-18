@@ -5,6 +5,7 @@ from django.contrib.auth.models import User as AuthUser
 class User(models.Model):
     auth_user = models.OneToOneField(AuthUser, related_name='core_user')
     is_car = models.BooleanField(default=False, help_text=u'Is user a system user account for car pc')
+    main_user = models.ForeignKey('self', related_name='car_users', null=True, blank=True)
 
     def __unicode__(self):
         return unicode(self.auth_user)
@@ -32,6 +33,7 @@ class SensorResult(models.Model):
     sensor = models.ForeignKey(Sensor, to_field='pid', related_name='results', db_index=True)
     car = models.ForeignKey(Car, related_name='results', db_index=True)
     value = models.CharField(max_length='50')
+    result_dt = models.DateTimeField()
     dc = models.DateTimeField(auto_now_add=True, db_index=True)
 
     class Meta:

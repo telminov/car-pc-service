@@ -2,14 +2,18 @@
 from django.conf.urls import patterns, url, include
 from rest_framework import routers
 
-from core.views.car import CarViewSet
-from core.views.sensors import SensorViewSet, SensorResultViewSet
+# from core.views.car import CarViewSet
+# from core.views.sensors import SensorViewSet, SensorResultViewSet
 
 router = routers.DefaultRouter()
-router.register('car', CarViewSet)
-router.register('sensor', SensorViewSet)
-router.register('sensor_result', SensorResultViewSet)
+# router.register('car', CarViewSet)
+# router.register('sensor', SensorViewSet)
+# router.register('sensor_result', SensorResultViewSet)
 
 urlpatterns = patterns('core.views',
     url(r'^', include(router.urls)),
+
+    url(r'^car/create/', 'car.create'),
+
+    url(r'^sensor/add_result/', 'sensor.add_result'),
 )
